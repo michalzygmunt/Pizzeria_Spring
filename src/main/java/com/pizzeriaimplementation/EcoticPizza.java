@@ -11,9 +11,11 @@ import org.springframework.stereotype.Component;
 public class EcoticPizza implements IPizza {
     private int price;
     private String name;
+    @Value("#{goodPizza.price matches '[1-9][1-9]'}")
+    boolean bool;
 
 
-    public EcoticPizza(@Value("#{goodPizza.getName()?.toUpperCase()}") String name,@Value("#{T(java.lang.Math).random()*10}") int price){
+    public EcoticPizza(@Value("#{goodPizza.getName()?.toUpperCase()}") String name,@Value("#{goodPizza.price < 10 ? 10 : 100}") int price){
         super();
         this.price = price;
         this.name = name;
@@ -21,6 +23,7 @@ public class EcoticPizza implements IPizza {
 
     @Override
     public int getPrice() {
+        System.out.println(bool);
         return price;
     }
 
