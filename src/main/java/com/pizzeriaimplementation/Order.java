@@ -12,7 +12,7 @@ public class Order  implements IOrder {
 
     public Order(IPizza pizza){
         super();
-        pizza.setPrice(20);
+
         this.pizza = pizza;
     }
 

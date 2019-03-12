@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faa4f1f8-28ba-4341-92af-26fb38a5ae0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ceny.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pizzeria/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pizzeria/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/EcoticPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/EcoticPizza.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/ExclusiveOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/ExclusiveOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/GoodPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/GoodPizza.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/config/AutoConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/config/AutoConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pizzeria/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pizzeria/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pizzeriaapi/IPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pizzeriaapi/IPizza.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/pizzeriaimplementation/EcoticPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pizzeriaimplementation/EcoticPizza.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/pizzeriaimplementation/ExclusiveOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pizzeriaimplementation/ExclusiveOrder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/pizzeriaimplementation/GoodPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pizzeriaimplementation/GoodPizza.class" afterDir="false" />
@@ -29,10 +32,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/EcoticPizza.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            <state relative-caret-position="97">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+                <element signature="e#698#699#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,14 +46,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/ExclusiveOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="272">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#202#203#0" expanded="true" />
                 <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
                 <element signature="e#436#437#0" expanded="true" />
                 <element signature="e#464#465#0" expanded="true" />
               </folding>
@@ -59,54 +62,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/GoodPizza.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="306">
+              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#277#278#0" expanded="true" />
                 <element signature="e#298#299#0" expanded="true" />
                 <element signature="e#339#340#0" expanded="true" />
                 <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/ceny.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pizzeria/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pizzeriaapi/IOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pizzeriaapi/IPizza.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/config/AutoConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="123">
+              <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,8 +110,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/config/Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
+            <state relative-caret-position="250">
               <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/config/AutoConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,8 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pizzeriaapi/GoodPizza.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            <state relative-caret-position="238">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,8 +146,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            <state relative-caret-position="208">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#429#430#0" expanded="true" />
@@ -175,19 +180,22 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/com/pizzeriaimplementation/IOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/com/pizzeriaimplementation/IPizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pizzeriaapi/IPizza.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/com/pizzeriaimplementation/EcoticPizza.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/com/pizzeriaimplementation/Order.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/com/pizzeriaimplementation/GoodPizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/config/AutoConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/config/Config.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pizzeriaapi/GoodPizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pizzeriaapi/IPizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pizzeria/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/config/AutoConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/EcoticPizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/GoodPizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/properties/ceny.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/ExclusiveOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/Order.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pizzeria/App.java" />
+        <option value="$PROJECT_DIR$/src/properties/ceny.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/GoodPizza.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/ceny.properties" />
       </list>
     </option>
   </component>
@@ -214,11 +222,6 @@
             <path>
               <item name="Pizzeria_Spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pizzeria_Spring" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pizzeria_Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pizzeria_Spring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -241,33 +244,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pizzeria_Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pizzeria_Spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pizzeria_Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pizzeria_Spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="pizzeria" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pizzeria_Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pizzeria_Spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="pizzeriaapi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Pizzeria_Spring" type="b2602c69:ProjectViewProjectNode" />
@@ -282,22 +258,8 @@
               <item name="Pizzeria_Spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pizzeria_Spring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pizzeria_Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pizzeria_Spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pizzeria_Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pizzeria_Spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pizzeria" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -318,6 +280,13 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\heow2\Desktop\Pizzeria_Spring\src\main\resources" />
+      <recent name="C:\Users\heow2\Desktop\Pizzeria_Spring\src\main" />
+      <recent name="C:\Users\heow2\Desktop\Pizzeria_Spring\src" />
+      <recent name="C:\Users\heow2\Desktop\Pizzeria_Spring\src\main\java\com\properties" />
+      <recent name="C:\Users\heow2\Desktop\Pizzeria_Spring\src\main\java\com\pizzeriaimplementation" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -362,7 +331,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552333473343</updated>
-      <workItem from="1552333477208" duration="9112000" />
+      <workItem from="1552333477208" duration="12567000" />
     </task>
     <task id="LOCAL-00001" summary="added class exclusiveorder">
       <created>1552390766128</created>
@@ -378,11 +347,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552391241974</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Autowiazanie, powiązania miedzy klasami&#10;@Autowired, wstrzykiwanie przez setter&#10;Kwalifikatory">
+      <created>1552392665412</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552392665412</updated>
+    </task>
+    <task id="LOCAL-00004" summary="@Scope, instancje obiektow">
+      <created>1552394555825</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552394555825</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9112000" />
+    <option name="totallyTimeSpent" value="12567000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -393,7 +376,7 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" weight="0.32850242" />
       <window_info anchor="bottom" id="Terminal" weight="0.32850242" />
@@ -402,10 +385,10 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" weight="0.32850242" />
       <window_info anchor="bottom" id="SVN Repositories" sideWeight="0.49924356" weight="0.32850242" />
-      <window_info anchor="bottom" id="Messages" weight="0.32850242" />
+      <window_info anchor="bottom" id="Messages" weight="0.136876" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.32850242" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.32850242" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -427,16 +410,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added class exclusiveorder" />
     <MESSAGE value="intelijj" />
-    <option name="LAST_COMMIT_MESSAGE" value="intelijj" />
+    <MESSAGE value="Autowiazanie, powiązania miedzy klasami&#10;@Autowired, wstrzykiwanie przez setter&#10;Kwalifikatory" />
+    <MESSAGE value="@Scope, instancje obiektow" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Scope, instancje obiektow" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar!/org/springframework/beans/factory/support/ConstructorResolver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-255">
@@ -459,36 +437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/config/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/config/AutoConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pizzeriaapi/GoodPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pizzeriaapi/IPizza.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -503,10 +451,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/Order.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/config/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pizzeria/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pizzeriaapi/GoodPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/EcoticPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/config/AutoConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#429#430#0" expanded="true" />
@@ -515,53 +515,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/ExclusiveOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="272">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#202#203#0" expanded="true" />
             <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
             <element signature="e#436#437#0" expanded="true" />
             <element signature="e#464#465#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/EcoticPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/GoodPizza.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="306">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#277#278#0" expanded="true" />
             <element signature="e#298#299#0" expanded="true" />
             <element signature="e#339#340#0" expanded="true" />
             <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pizzeria/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ceny.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>
