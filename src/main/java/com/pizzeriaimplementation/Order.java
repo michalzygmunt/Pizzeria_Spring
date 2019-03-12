@@ -3,6 +3,7 @@ package com.pizzeriaimplementation;
 import com.pizzeriaapi.IOrder;
 import com.pizzeriaapi.IPizza;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
