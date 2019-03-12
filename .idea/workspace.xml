@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="faa4f1f8-28ba-4341-92af-26fb38a5ae0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/EcoticPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/EcoticPizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pizzeriaimplementation/ExclusiveOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pizzeriaimplementation/ExclusiveOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pizzeriaimplementation/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pizzeriaimplementation/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/config/AutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/config/AutoConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/EcoticPizza.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="15" column="92" selection-start-line="15" selection-start-column="92" selection-end-line="15" selection-end-column="92" />
+            <state relative-caret-position="102">
+              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#679#680#0" expanded="true" />
@@ -113,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/config/AutoConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="301">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,7 +180,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/pizzeriaapi/GoodPizza.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pizzeriaapi/IPizza.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pizzeria/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/config/AutoConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/properties/ceny.properties" />
         <option value="$PROJECT_DIR$/src/properties/ceny.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/GoodPizza.java" />
@@ -190,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/ExclusiveOrder.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ceny.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/EcoticPizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/config/AutoConfig.java" />
       </list>
     </option>
   </component>
@@ -238,6 +236,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pizzeria_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pizzeria_Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Pizzeria_Spring" type="b2602c69:ProjectViewProjectNode" />
@@ -325,7 +332,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552333473343</updated>
-      <workItem from="1552333477208" duration="13512000" />
+      <workItem from="1552333477208" duration="14261000" />
     </task>
     <task id="LOCAL-00001" summary="added class exclusiveorder">
       <created>1552390766128</created>
@@ -369,11 +376,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552401858823</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="SpEL - @Value(&quot;#{goodPizza.getName()?.toUpperCase()}&quot;)">
+      <created>1552402165150</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1552402165150</updated>
+    </task>
+    <task id="LOCAL-00008" summary="wyrazenie regularne">
+      <created>1552402392395</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1552402392395</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13512000" />
+    <option name="totallyTimeSpent" value="14261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -422,7 +443,9 @@
     <MESSAGE value="@Scope, instancje obiektow" />
     <MESSAGE value="Wstrzykiwanie zewnątrz" />
     <MESSAGE value="SpEL" />
-    <option name="LAST_COMMIT_MESSAGE" value="SpEL" />
+    <MESSAGE value="SpEL - @Value(&quot;#{goodPizza.getName()?.toUpperCase()}&quot;)" />
+    <MESSAGE value="wyrazenie regularne" />
+    <option name="LAST_COMMIT_MESSAGE" value="wyrazenie regularne" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar!/org/springframework/beans/factory/support/ConstructorResolver.class">
@@ -491,16 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/config/AutoConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -561,12 +574,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pizzeriaimplementation/EcoticPizza.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" column="92" selection-start-line="15" selection-start-column="92" selection-end-line="15" selection-end-column="92" />
+        <state relative-caret-position="102">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#679#680#0" expanded="true" />
             <element signature="e#698#699#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/config/AutoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
