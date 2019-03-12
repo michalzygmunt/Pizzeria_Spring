@@ -13,7 +13,7 @@ public class EcoticPizza implements IPizza {
     private String name;
 
 
-    public EcoticPizza(@Value("Egzotyczna pizza") String name,@Value("50") int price){
+    public EcoticPizza(@Value("#{goodPizza.getName()?.toUpperCase()}") String name,@Value("#{T(java.lang.Math).random()*10}") int price){
         super();
         this.price = price;
         this.name = name;
