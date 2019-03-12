@@ -19,8 +19,8 @@ public class ExclusiveOrder implements IOrder {
     }
 
     @Autowired
-    @GoodPizza
     public void setPizza(IPizza pizza) {
+        pizza.setPrice(50);
         this.pizza = pizza;
     }
 
@@ -30,7 +30,7 @@ public class ExclusiveOrder implements IOrder {
 
     @Override
     public void printOrder() {
-        System.out.println("Zamowienie: " + pizza.getName() + " cena: " + pizza.getPrice());
+        System.out.println("Zamowienie exclusive: " + pizza.getName() + " cena: " + pizza.getPrice());
 
     }
 }

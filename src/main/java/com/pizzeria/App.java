@@ -19,5 +19,8 @@ public class App
         IOrder order = context.getBean(IOrder.class);
         order.printOrder();
 
+         IOrder order2 = context.getBean(Order.class);
+        order2.printOrder();
+
     }
 }

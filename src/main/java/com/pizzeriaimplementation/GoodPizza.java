@@ -3,13 +3,15 @@ package com.pizzeriaimplementation;
 import com.pizzeriaapi.IPizza;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Primary;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 
-
+@Primary
 @Component
-@Qualifier("Dobra")
+@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class GoodPizza implements IPizza {
     private int price;
     private String name;
@@ -27,5 +29,10 @@ public class GoodPizza implements IPizza {
 
     public String getName(){
         return name;
+    }
+
+    @Override
+    public void setPrice(int price) {
+        this.price = price;
     }
 }

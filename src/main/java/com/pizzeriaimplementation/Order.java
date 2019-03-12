@@ -10,8 +10,9 @@ import org.springframework.stereotype.Component;
 public class Order  implements IOrder {
     IPizza pizza;
 
-    public Order(@Qualifier("Dobra") IPizza pizza){
+    public Order(IPizza pizza){
         super();
+        pizza.setPrice(20);
         this.pizza = pizza;
     }
 

@@ -3,8 +3,8 @@ package com.pizzeriaimplementation;
 import com.pizzeriaapi.GoodPizza;
 import com.pizzeriaapi.IPizza;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
-
 
 @Component
 @GoodPizza
@@ -13,7 +13,7 @@ public class EcoticPizza implements IPizza {
     private String name;
 
 
-    public EcoticPizza(@Value("FAJOWSKA") String name,@Value("50") int price){
+    public EcoticPizza(@Value("Egzotyczna pizza") String name,@Value("50") int price){
         super();
         this.price = price;
         this.name = name;
@@ -28,4 +28,11 @@ public class EcoticPizza implements IPizza {
     public String getName() {
         return name;
     }
+
+    @Override
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+
 }

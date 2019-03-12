@@ -6,6 +6,5 @@ import org.springframework.context.annotation.Import;
 
 @Configuration
 @ComponentScan("com")
-@Import(Config.class)
 public class AutoConfig {
 }
