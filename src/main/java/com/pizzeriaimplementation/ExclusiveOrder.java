@@ -4,6 +4,7 @@ import com.pizzeriaapi.GoodPizza;
 import com.pizzeriaapi.IOrder;
 import com.pizzeriaapi.IPizza;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
@@ -18,9 +19,8 @@ public class ExclusiveOrder implements IOrder {
         super();
     }
 
-    @Autowired
+    @Value("#{ecoticPizza}")
     public void setPizza(IPizza pizza) {
-
         this.pizza = pizza;
     }
 
