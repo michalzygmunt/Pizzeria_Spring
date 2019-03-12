@@ -1,5 +1,6 @@
 package com.pizzeriaimplementation;
 
+import com.pizzeriaapi.GoodPizza;
 import com.pizzeriaapi.IPizza;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Primary;
@@ -7,6 +8,7 @@ import org.springframework.stereotype.Component;
 
 
 @Component
+@GoodPizza
 public class EcoticPizza implements IPizza {
     private int price;
     private String name;
